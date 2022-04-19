@@ -23,7 +23,7 @@ app.use(helmet.dnsPrefetchControl({
   allow: false
 }))
 
-helmet.noCache()
+app.use(helmet.noCache())
 
 
 
